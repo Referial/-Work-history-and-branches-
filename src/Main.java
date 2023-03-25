@@ -11,7 +11,11 @@ public class Main {
             System.out.println("Введите кол-во продаж менеджера: ");
             number[x] = scanner.nextInt();
         }
+
         SalesManager salesManager =new SalesManager(number);
+
         System.out.println("Максимальное кол-во продаж: " + salesManager.max());
+        System.out.println("Минимальное кол-во продаж: " + salesManager.min());
+        System.out.println("Среднее кол-во продаж: " + salesManager.averageValue());
     }
 }
