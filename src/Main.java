@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введите кол-во менеджеров:");
-        int[] number = new int [scanner.nextInt()];
+        long[] number = new long [scanner.nextInt()];
 
         for (int x = 0; x < number.length; x++){
             System.out.println("Введите кол-во продаж менеджера: ");
